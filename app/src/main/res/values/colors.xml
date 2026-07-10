@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="verifirx_primary">#0B6E4F</color>
+    <color name="verifirx_on_primary">#FFFFFF</color>
+    <color name="verifirx_match">#1E8E3E</color>
+    <color name="verifirx_mismatch">#D93025</color>
+    <color name="verifirx_review">#E8A400</color>
+    <color name="ic_launcher_background">#0B6E4F</color>
+</resources>

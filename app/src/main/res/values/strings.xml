@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VerifiRX</string>
+
+    <string name="home_title">Verificador de Justificantes RX21</string>
+    <string name="home_new_verification">Nueva verificación</string>
+    <string name="home_take_photo">Hacer foto</string>
+    <string name="home_upload_scan">Subir escaneo</string>
+    <string name="home_recent_sessions">Verificaciones recientes</string>
+    <string name="home_no_sessions">Todavía no hay verificaciones guardadas.</string>
+
+    <string name="capture_title">Encuadra la hoja de dispensación</string>
+    <string name="capture_hint">Coloca la hoja completa dentro del marco, con buena luz y sin sombras sobre los cupones.</string>
+    <string name="capture_shutter_cd">Hacer foto</string>
+    <string name="capture_gallery_cd">Elegir de la galería</string>
+    <string name="capture_permission_rationale">VerifiRX necesita acceso a la cámara para fotografiar la hoja de dispensación.</string>
+    <string name="capture_permission_denied">Sin acceso a la cámara no es posible fotografiar la hoja. Puedes subir una imagen ya escaneada en su lugar.</string>
+    <string name="capture_grant_permission">Conceder permiso</string>
+
+    <string name="processing_title">Analizando la hoja…</string>
+    <string name="processing_step_detecting">Detectando texto impreso…</string>
+    <string name="processing_step_barcodes">Leyendo códigos de barras de los cupones…</string>
+    <string name="processing_step_comparing">Comparando columnas…</string>
+    <string name="processing_error">No se ha podido procesar la imagen. Inténtalo de nuevo con una foto más nítida.</string>
+
+    <string name="results_title">Resultado de la verificación</string>
+    <string name="results_summary_matches">%1$d coinciden</string>
+    <string name="results_summary_mismatches">%1$d no coinciden</string>
+    <string name="results_summary_review">%1$d a revisar</string>
+    <string name="results_row_left">Impreso en el sistema</string>
+    <string name="results_row_right">Cupón precinto</string>
+    <string name="results_row_name">Nombre</string>
+    <string name="results_row_cn">C.N.</string>
+    <string name="results_verdict_match">Coincide</string>
+    <string name="results_verdict_mismatch">No coincide</string>
+    <string name="results_verdict_review">Revisar</string>
+    <string name="results_manual_override">Marcar manualmente</string>
+    <string name="results_override_note_label">Motivo (obligatorio)</string>
+    <string name="results_save">Guardar verificación</string>
+    <string name="results_empty">No se ha detectado ninguna fila con medicamentos en la imagen. Comprueba el encuadre e inténtalo de nuevo.</string>
+
+    <string name="history_title">Historial</string>
+    <string name="history_empty">Aún no hay verificaciones guardadas.</string>
+    <string name="history_summary">%1$d/%2$d coincidencias</string>
+</resources>
